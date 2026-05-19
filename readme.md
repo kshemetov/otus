@@ -4,14 +4,14 @@ Node Exporter (метрики ОС)
 sudo apt install -y prometheus-node-exporter
 Проверка:
 root@lab-prom02:~# curl http://localhost:9100/metrics | head -n 5
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  ```% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0# HELP go_gc_duration_seconds A summary of the wall-time pause (stop-the-world) duration in garbage collection cycles.
 # TYPE go_gc_duration_seconds summary
 go_gc_duration_seconds{quantile="0"} 3.2959e-05
 go_gc_duration_seconds{quantile="0.25"} 4.1508e-05
 go_gc_duration_seconds{quantile="0.5"} 4.5911e-05
-100 12086    0 12086    0     0   658k      0 --:--:-- --:--:-- --:--:--  694k
+100 12086    0 12086    0     0   658k      0 --:--:-- --:--:-- --:--:--  694k```
 
 MySQL Exporter (метрики базы данных)
 Установка:
