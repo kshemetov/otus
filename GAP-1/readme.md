@@ -1,4 +1,5 @@
 Установка экспортеров на lab-prom02
+
 Node Exporter (метрики ОС)
 Установка:
 sudo apt install -y prometheus-node-exporter
